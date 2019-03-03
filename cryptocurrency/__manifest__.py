@@ -5,7 +5,7 @@
     'summary': 'Manage crypto-currencies and convert',
     'description': """
 Core mechanisms for the managing of crypto-currencies.
-Allow a higher decimmal precicion.
+Allow a higher decimal precicion.
 Track the current value of all your assets
     """,
     'category': 'Accounting',

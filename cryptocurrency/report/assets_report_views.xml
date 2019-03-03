@@ -36,6 +36,7 @@
             name="Crypto Assets Analysis"
             parent="menu_action_crypto_currency"
             action="action_crypto_asset_report_all"
-            id="menu_action_crypto_currency_asset_analysis"/>
+            id="menu_action_crypto_currency_asset_analysis"
+            groups="base.group_user"/>
 
 </odoo>
