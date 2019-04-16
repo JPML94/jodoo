@@ -7,6 +7,7 @@ class ResCurrencyAsset(models.Model):
     _name = "crypto.currency.asset"
     _order = "currency_id"
     _rec_name = 'display_name'
+    _description = ''
 
 
     @api.depends('currency_id', 'quantity', 'company_id')
