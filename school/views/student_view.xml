@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
+        <menuitem id="school_menu" 
+                  name="School"/>
+        <menuitem id="school_student_menu" 
+                  parent="school_menu" 
+                  name="Student" 
+                  action="student_menu_action"/>
         <record id="student_menu_action" model="ir.actions.act_window">
             <field name="name">Students</field>
             <field name="res_model">student.student</field>
@@ -9,15 +15,8 @@
             <field name="domain">[]</field>
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">Create The First Student
-                </p>
+            	</p>
             </field>
         </record>
-
-        <menuitem id="school_menu" 
-                  name="School"/>
-        <menuitem id="school_student_menu" 
-                  parent="school_menu" 
-                  name="Student" 
-                  action="student_menu_action"/>
     </data>
 </odoo>
