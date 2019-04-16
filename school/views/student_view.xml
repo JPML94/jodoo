@@ -12,11 +12,14 @@
             	</p>
             </field>
         </record>
+
         <menuitem id="school_menu" 
-                  name="School"/>
+                  name="School"
+                  groups="base.group_user"/>
         <menuitem id="school_student_menu" 
                   parent="school_menu" 
-                  name="Student" 
+                  name="Student"
+                  groups="base.group_user"
                   action="student_menu_action"/>
     </data>
 </odoo>
