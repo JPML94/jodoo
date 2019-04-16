@@ -16,7 +16,7 @@ class StudentStudent(models.Model):
     student_dob = fields.Date(string='Date of Birth')
     student_blood_group = fields.Selection([('A+', 'A+ve'), ('B+', 'B+ve'),
                                             ('O+', 'O+ve'), ('AB+', 'AB+ve'),
-                                            ('A-'
+                                            ('A-',
                                              'A-ve'), ('B-', 'B-ve'),
                                             ('O-', 'O-ve'), ('AB-', 'AB-ve')],
                                            string='Blood Group')
