@@ -27,7 +27,7 @@
             </field>
         </record>
 
-        <record>
+        <record id="student_free_view" model="ir.ui.view">
             <field name="name">Student Form</field>
             <field name="model">student.student</field>
             <field name="arch" type="xml">
