@@ -27,6 +27,34 @@
             </field>
         </record>
 
+        <record>
+            <field name="name">Student Form</field>
+            <field name="model">student.student</field>
+            <field name="arch" type="xml">
+                <form string="Student">
+                    <sheet>
+                        <field name="photo" widget="image" class="oe_left oe_avatar"/>
+                        <div class="oe_title">
+                            <h3>
+                                <field name="name"/>
+                            </h3>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="age"/>
+                                <field name="gender"/>
+                            </group>
+                            <group>
+                                <field name="student_dob"/>
+                                <field name="student_blood_group"/>
+                                <field name="nationality"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
         <menuitem id="school_menu" 
                   name="School"
                   groups="base.group_user"/>
