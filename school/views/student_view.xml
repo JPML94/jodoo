@@ -13,6 +13,20 @@
             </field>
         </record>
 
+        <record id="student_tree_view" model="ir.ui.view">
+            <field name="name">Student Tree</field>
+            <field name="model">student.student</field>
+            <field name="arch" type="xml">
+                <tree string="Students">
+                    <field name="name"/>
+                    <field name="age"/>
+                    <field name="gender"/>
+                    <field name="student_blood_group"/>
+                    <field name="nationality"/>
+                </tree>
+            </field>
+        </record>
+
         <menuitem id="school_menu" 
                   name="School"
                   groups="base.group_user"/>
