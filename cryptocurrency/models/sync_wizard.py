@@ -16,7 +16,7 @@ SUPPORTED_CURRENCIES = ["AUD", "BRL", "CAD", "CHF", "CLP", "CNY", "CZK", "DKK", 
 
 class RateSync(models.TransientModel):
     _name = "crypto.currency.rate.sync"
-    _description = ''
+    _description = 'rate synchronization model'
 
     def _get_default_currency(self):
         if self.env.context.get('active_id') and \

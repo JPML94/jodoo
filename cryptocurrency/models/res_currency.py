@@ -5,7 +5,7 @@ from odoo.addons import decimal_precision as dp
 
 class ResCurrency(models.Model):
     _inherit = "res.currency"
-    _description = ''
+    _description = 'currency model'
 
     rate = fields.Float(digits=dp.get_precision('Currency Precision'))
     rounding = fields.Float(digits=dp.get_precision('Currency Precision'))
@@ -13,6 +13,6 @@ class ResCurrency(models.Model):
 
 class ResCurrencyRate(models.Model):
     _inherit = "res.currency.rate"
-    _description = ''
+    _description = 'currency rate'
 
     rate = fields.Float(digits=dp.get_precision('Currency Precision'))
