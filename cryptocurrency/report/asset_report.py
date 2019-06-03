@@ -7,6 +7,7 @@ class ResCurrencyAssetReport(models.Model):
     _name = "crypto.currency.asset.report"
     _auto = False
     _rec_name = 'currency_id'
+    _description = 'currency report'
 
     currency_id = fields.Many2one('res.currency', string="Asset", readonly=True)
     quantity = fields.Float(readonly=True)
