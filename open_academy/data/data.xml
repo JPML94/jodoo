@@ -24,8 +24,8 @@
         <record model="open_academy.session" id="open_academy.session_01">
             <field name="date_start">2019-06-05</field>
             <field name="date_stop">2019-06-06</field>
-            <field name="course" ref="open_academy.chem101"/>
-            <field name="teacher" ref="open_academy.juan_mora"/>
+            <field name="course" ref="chem101"/>
+            <field name="teacher" ref="juan_mora"/>
         </record>
     </data>
 </odoo>
