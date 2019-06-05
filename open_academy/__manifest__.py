@@ -17,6 +17,7 @@
     'depends': ['base'],
     'data': [
         'data/data.xml',
+        'security/ir.model.access.csv',
         'views/menus.xml',
     ],
     'demo': [],
