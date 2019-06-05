@@ -10,3 +10,7 @@ class Teacher(models.Model):
     last_name = fields.Char(string='Last Name', required=True)
     age = fields.Integer(string='Teacher\'s age')
     vertical = fields.Char(string='The teacher\'s specialty field')
+
+    @api.multi
+    def name_get(self):
+        return [(rec.id, '{} {}'.format(rec.first_name, last_name)) for rec in self]
