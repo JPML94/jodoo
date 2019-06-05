@@ -1,0 +1,25 @@
+<odoo>
+    <data>
+    
+        <record model="open_academy.course" id="open_academy.math_101">
+            <field name="name">Math 101</field>
+            <field name="level">easy</field>
+        </record>
+
+        <record model="open_academy.course" id="open_academy.chem_101">
+            <field name="name">Chemistry 101</field>
+            <field name="level">easy</field>
+        </record>
+
+        <record model="open_academy.course" id="open_academy.eng_101">
+            <field name="name">English 101</field>
+            <field name="level">easy</field>
+        </record>
+
+        <record model="open_academy.teacher" id="open_academy.juan_mora">
+            <field name="first_name">Juan</field>
+            <field name="last_name">Mora</field>
+        </record>
+
+    </data>
+</odoo>

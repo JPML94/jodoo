@@ -1,8 +1,0 @@
-<odoo>
-    <data>
-        <record model="open_academy.course" id="open_academy.course_1">
-            <field name="name">Math 101</field>
-            <field name="level">easy</field>
-        </record>
-    </data>
-</odoo>

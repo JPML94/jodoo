@@ -15,6 +15,6 @@
     'category': 'Demo',
     'version': '0.1',
     'depends': ['base'],
-    'data': [],
-    'demo': ['demo/demo.xml',],
+    'data': ['data/data.xml',],
+    'demo': [],
 }
