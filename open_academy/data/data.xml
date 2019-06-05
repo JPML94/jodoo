@@ -22,6 +22,7 @@
         </record>
 
         <record model="open_academy.session" id="open_academy.session_01">
+            <field name="name">First Chemistry Session</field>
             <field name="date_start">2019-06-05</field>
             <field name="date_stop">2019-06-06</field>
             <field name="course" ref="chem_101"/>
