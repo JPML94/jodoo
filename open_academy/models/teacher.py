@@ -13,4 +13,4 @@ class Teacher(models.Model):
 
     @api.multi
     def name_get(self):
-        return [(rec.id, '{} {}'.format(rec.first_name, last_name)) for rec in self]
+        return [(rec.id, '{} {}'.format(rec.first_name, rec.last_name)) for rec in self]
