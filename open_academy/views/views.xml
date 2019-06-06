@@ -85,7 +85,7 @@
       <field name="arch" type="xml">
         <search>
           <field name="name"/>
-          <field name="teacher_id"/>
+          <field name="level"/>
           <filter name="easy_difficulty" help="Easy Courses" domain="[('level','=','easy')]"/>
         </search>
       </field>
