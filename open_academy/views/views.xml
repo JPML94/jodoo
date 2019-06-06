@@ -86,7 +86,7 @@
         <search>
           <field name="name"/>
           <field name="teacher_id"/>
-          <filter name="easy_difficulty" help="Easy Courses" domain="[('level','=','easy')]">
+          <filter name="easy_difficulty" help="Easy Courses" domain="[('level','=','easy')]"/>
         </search>
       </field>
     </record>
