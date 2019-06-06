@@ -19,4 +19,4 @@ class Course(models.Model):
 
     @api.onchange('level')
     def _onchange_level(self):
-        _logger.critical('{} is the field changing'.format(self.level))
+        _logger.info('{} is the new value for the level field'.format(self.level))

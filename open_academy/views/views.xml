@@ -86,7 +86,8 @@
         <search>
           <field name="name"/>
           <field name="level"/>
-          <filter name="easy_difficulty" help="Easy Courses" domain="[('level','=','easy')]"/>
+          <filter name="easy_courses" help="Easy Courses" domain="[('level','=','easy')]"/>
+          <groupby name="level_groupping" help="Difficulty" context="{'group_by': 'level'}"/>
         </search>
       </field>
     </record>
