@@ -12,3 +12,7 @@ class Course(models.Model):
         ('normal', 'Normal'),
         ('hard', 'Hard'),
     ], string='Difficulty')
+
+    @api.onchange('level')
+    def _onchange_level(self):
+        raise Exception(str(self.env.context))

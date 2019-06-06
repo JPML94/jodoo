@@ -9,5 +9,7 @@ class Session(models.Model):
     name = fields.Char(string='Title', required=True)
     date_start = fields.Date(string='Start Date')
     date_stop = fields.Date(string='Stop Date')
-    course = fields.Many2one('open_academy.course', required=True)
-    teacher = fields.Many2one('open_academy.teacher', required=True)
+    course_id = fields.Many2one('open_academy.course', required=True)
+    teacher_id = fields.Many2one('open_academy.teacher', required=True)
+
+    course_name = fields.Char(related="course_id.name")
