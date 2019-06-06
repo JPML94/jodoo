@@ -1,5 +1,6 @@
 <odoo>
   <data>
+    
     <record model="ir.ui.view" id="open_academy_session_form">
       <field name="name">session.form</field>
       <field name="model">open_academy.session</field>
@@ -8,16 +9,51 @@
         <form string="Open Academy Sessions">
           <sheet>
             <group>
+              <field name="course_name"/>
               <field name="name"/>
-              <field name="date_start"/>
-              <field name="date_stop"/>
               <field name="course_id"/>
               <field name="teacher_id"/>
-              <field name="course_name"/>
+              <notebook>
+                <field name="date_start"/>
+                <field name="date_stop"/>
+              </notebook>
             </group>
           </sheet>
         </form>
       </field>
     </record>
+
+    <record model="ir.ui.view" id="open_academy_course_form">
+      <field name="name">course.form</field>
+      <field name="model">open_academy.course</field>
+      <field name="priority">1</field>
+      <field name="arch" type="xml">
+        <form string="Open Academy Course">
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="level"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="open_academy_teacher_form">
+      <field name="name">teacher.form</field>
+      <field name="model">open_academy.teacher</field>
+      <field name="priority">1</field>
+      <field name="arch" type="xml">
+        <form string="Open Academy Teacher">
+          <sheet>
+            <group>
+              <field name="first_name"/>
+              <field name="last_name"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
   </data>
 </odoo>
