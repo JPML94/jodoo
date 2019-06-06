@@ -16,6 +16,16 @@
             <field name="level">easy</field>
         </record>
 
+        <record model="open_academy.course" id="open_academy.art_hist_201">
+            <field name="name">Art History 201</field>
+            <field name="level">normal</field>
+        </record>
+
+        <record model="open_academy.course" id="open_academy.math_401">
+            <field name="name">Math 401</field>
+            <field name="level">hard</field>
+        </record>
+
         <record model="open_academy.teacher" id="open_academy.juan_mora">
             <field name="first_name">Juan</field>
             <field name="last_name">Mora</field>

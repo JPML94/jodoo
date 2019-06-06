@@ -20,6 +20,7 @@
         'security/ir.model.access.csv',
         'views/menus.xml',
         'views/views.xml',
+        'views/sale_order_inherited_jpm.xml',
     ],
     'demo': [],
 }
