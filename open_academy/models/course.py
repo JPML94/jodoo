@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
+import logging
+
 from odoo import models, fields, api
+
+_logger = logging.getLogger(__name__)
 
 class Course(models.Model):
     _name = 'open_academy.course'
@@ -15,4 +19,4 @@ class Course(models.Model):
 
     @api.onchange('level')
     def _onchange_level(self):
-        raise Exception(str(self.env.context))
+        _logger.debug('{} is the field changing'.format(level))
