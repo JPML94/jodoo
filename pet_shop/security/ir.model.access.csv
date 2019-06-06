@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pet_shop_pet_full,Pets Full,model_pet_shop_pet,,1,1,1,1
+access_pet_shop_owner_full,Owners Full,model_pet_shop_owner,,1,1,1,1
+access_pet_shop_asset_full,Assets Full,model_pet_shop_asset,,1,1,1,1
+
