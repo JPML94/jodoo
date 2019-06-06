@@ -14,7 +14,7 @@
     'website': "www.odoo.com",
     'category': 'Demo',
     'version': '0.1',
-    'depends': ['base'],
+    'depends': ['sale'],
     'data': [
         'data/data.xml',
         'security/ir.model.access.csv',
