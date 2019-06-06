@@ -16,8 +16,10 @@
             </group>
             <notebook>
               <page string="Date Information">
-                <field name="date_start"/>
-                <field name="date_stop"/>
+                <group>
+                  <field name="date_start"/>
+                  <field name="date_stop"/>
+                </group>
               </page>
               <page string="Instructor">
                 <field name="teacher_id"/>
