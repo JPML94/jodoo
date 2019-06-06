@@ -21,6 +21,7 @@
         'views/menus.xml',
         'views/views.xml',
         'views/sale_order_inherited_jpm.xml',
+        'reports/sale_order_inherited_report.xml',
     ],
     'demo': [],
 }
