@@ -3,7 +3,7 @@
     <data>
         <template id="assets_common_inherit" name="Bar Color" inherit_id="web.assets_common">
             <xpath expr="link[last()]" position="after">
-                <link rel="stylesheet" type="text/scss" href="/open_academy/static/src/scss/bar_css.scss">
+                <link rel="stylesheet" type="text/scss" href="/open_academy/static/src/scss/bar_css.scss"/>
             </xpath>
         </template>
 
