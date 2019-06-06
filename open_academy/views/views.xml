@@ -1,5 +1,7 @@
 <odoo>
   <data>
+
+    <!-- FORM VIEWS -->
     
     <record model="ir.ui.view" id="open_academy_session_form">
       <field name="name">session.form</field>
@@ -64,13 +66,27 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="open_academy_course_search_view">
+    <!-- SEARCH VIEWS -->
+
+    <record model="ir.ui.view" id="open_academy_session_search_view">
       <field name="name">session.search</field>
       <field name="model">open_academy.session</field>
       <field name="arch" type="xml">
         <search>
           <field name="name"/>
           <field name="teacher_id"/>
+        </search>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="open_academy_course_search_view">
+      <field name="name">course.search</field>
+      <field name="model">open_academy.course</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name"/>
+          <field name="teacher_id"/>
+          <filter name="easy_difficulty" help="Easy Courses" domain="[('level','=','easy')]">
         </search>
       </field>
     </record>
