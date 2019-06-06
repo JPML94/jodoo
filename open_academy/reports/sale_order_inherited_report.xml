@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
+        <template id="assets_common_inherit" name="Bar Color" inherit_id="web.assets_common">
+            <xpath expr="link[last()]" position="after">
+                <link rel="stylesheet" type="text/scss" href="/open_academy/static/src/scss/bar_css.scss">
+            </xpath>
+        </template>
+
         <template id="report_sale_order_inherited" inherit_id="sale.report_saleorder_document" name="Sales Order Report Inherited">
             <xpath expr="//*[@id='informations']" position="inside">
                 <div t-if="doc.session_id" class="col-auto mw-100 mb-2">

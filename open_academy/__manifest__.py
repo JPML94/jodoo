@@ -24,4 +24,7 @@
         'reports/sale_order_inherited_report.xml',
     ],
     'demo': [],
+    'css': [
+        'static/src/scss/bar_css.scss',
+    ],
 }
