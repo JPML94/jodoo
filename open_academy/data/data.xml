@@ -25,7 +25,7 @@
             <field name="name">First Chemistry Session</field>
             <field name="date_start">2019-06-05</field>
             <field name="date_stop">2019-06-06</field>
-            <field name="course" ref="chem_101"/>
+            <field name="course_id" ref="chem_101"/>
             <field name="teacher" ref="juan_mora"/>
         </record>
     </data>
