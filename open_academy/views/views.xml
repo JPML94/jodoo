@@ -64,5 +64,16 @@
       </field>
     </record>
 
+    <record model="ir.ui.view" id="open_academy_course_search_view">
+      <field name="name">session.search</field>
+      <field name="model">open_academy.session</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name"/>
+          <field name="teacher_id"/>
+        </search>
+      </field>
+    </record>
+
   </data>
 </odoo>
