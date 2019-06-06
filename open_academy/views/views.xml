@@ -22,7 +22,9 @@
                 </group>
               </page>
               <page string="Instructor">
-                <field name="teacher_id"/>
+                <group>
+                  <field name="teacher_id"/>
+                </group>
               </page>
             </notebook>
           </sheet>
