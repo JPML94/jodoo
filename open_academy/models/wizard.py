@@ -9,7 +9,7 @@ class Wizard(models.TransientModel):
     def _get_courses(self):
         return self.env['open_academy.course'].browse(self.env.context.get('active_ids'))
 
-    course_ids = fields.Many2many('open_academy.course', string='Courses' default=_get_courses())
+    course_ids = fields.Many2many('open_academy.course', string='Courses' default="_get_courses")
     level = fields.Selection([
         ('easy', 'Easy'),
         ('normal', 'Normal'),
