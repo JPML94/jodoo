@@ -13,3 +13,5 @@ class Session(models.Model):
     teacher_id = fields.Many2one('open_academy.teacher', required=True)
 
     course_name = fields.Char(related="course_id.name")
+
+    organizer_id = fields.Many2one('res.users', string="Organizer")

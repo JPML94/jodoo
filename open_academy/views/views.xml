@@ -12,10 +12,10 @@
         <form string="Open Academy Sessions">
           <sheet>
             <group>
-              <field name="course_name"/>
+              <field name="course_name" invisible="1"/>
               <field name="name"/>
               <field name="course_id"/>
-              <field name="teacher_id"/>
+              <field name="organizer_id"/>
             </group>
             <notebook>
               <page string="Date Information">
@@ -24,7 +24,7 @@
                   <field name="date_stop"/>
                 </group>
               </page>
-              <page string="Instructor">
+              <page string="Instructor Information">
                 <group>
                   <field name="teacher_id"/>
                 </group>

@@ -18,6 +18,7 @@
     'data': [
         'data/data.xml',
         'security/ir.model.access.csv',
+        'security/security.xml',
         'views/menus.xml',
         'views/views.xml',
         'views/sale_order_inherited_jpm.xml',
