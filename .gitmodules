@@ -1,8 +1,0 @@
-[submodule "ingadhoc/odoo-argentina"]
-	path = ingadhoc/odoo-argentina
-	url = git@github.com:ingadhoc/odoo-argentina.git
-	branch = 12.0
-[submodule "JPML94/private-modules"]
-	path = private-modules
-	url = https://github.com/JPML94/private-modules
-	branch = master
